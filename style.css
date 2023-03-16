@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #canvas1 {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    }
+
+    #canvas1{
+        background-image:    url(skyline2.jpg);
+        background-size:     cover;                      
+        background-repeat:   no-repeat;
+        background-position: center center;
+    }
+
+    #play{
+        position: absolute;
+        top: 450;
+        left: 400;
+    }
